@@ -9,7 +9,7 @@ int main() {
 	hwnd = GetDesktopWindow();
 	Sleep(5000);
 	if (remove("C:\\Windows\\kmlog.log") == 0) {
-		MessageBoxA(hwnd, (LPCSTR)"KMLOG is Successfully Deleted", "Mhyprot Cleaner", 0);
+		MessageBoxA(hwnd, (LPCSTR)"KMLOG is Successfully Deleted", (LPCSTR)"Mhyprot Cleaner", 0);
 	}
 	return 0;
 }
